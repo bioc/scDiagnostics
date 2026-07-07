@@ -1,7 +1,7 @@
 Type: Package
 Package: scDiagnostics
 Title: Cell type annotation diagnostics
-Version: 1.7.1
+Version: 1.7.2
 Authors@R: c(
     person("Anthony", "Christidis", role = c("aut", "cre"), 
             email = "anthony-alexander_christidis@hms.harvard.edu", 
@@ -62,6 +62,7 @@ Suggests:
     ComplexHeatmap,
     circlize,
     grid,
+    ragg,
     testthat (>= 3.0.0)
 VignetteBuilder: 
     knitr
